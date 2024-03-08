@@ -1,7 +1,8 @@
 import React from "react";
 import "./about.css";
-import Ab from "../../assets/avatar-2.svg";
+import Ab from "../../assets/Foto1.jpg";
 import AboutBox from "./AboutBox";
+import CV from "../../assets/CV.pdf"
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
               I'm Abraham Hernadez, I'm from Mexico City, I have experience
               using Java and .Net. I love learning new skills such as languages.
             </p>
-            <a href="" className="btn">
+            <a download="" href={CV} className="btn">
               Download CV
             </a>
           </div>

@@ -14,6 +14,11 @@
     position: relative;
 }
 
+.about__img{
+    height: 250px;
+    border-radius: 20px;
+}
+
 .about__data::before{
     content: "";
     width: 0;
